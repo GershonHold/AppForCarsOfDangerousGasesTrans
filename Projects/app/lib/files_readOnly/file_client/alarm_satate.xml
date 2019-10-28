@@ -1,0 +1,19 @@
+<root>
+<cmd>
+<cmdType>WRITE</cmdType>
+<cmdObject> alarm_state </cmdObject>
+<cmdPara></cmdPara>
+</cmd>
+<content>
+<time>1523478954</time>
+<gatewayID>1111111</gatewayID>
+<item>
+<DataValue>max_value</DataValue>
+<TimeValue>max_time</TimeValue>
+</item>
+<item>
+<DataValue>min_value</DataValue>
+<TimeValue>min_time</TimeValue>
+</item>
+</content>
+</root>

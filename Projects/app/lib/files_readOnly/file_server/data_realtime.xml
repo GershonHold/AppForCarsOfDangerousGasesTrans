@@ -1,0 +1,28 @@
+<root>
+  <cmd>
+    <cmdType>READ_OK</cmdType>
+    <cmdObject>data_realtime</cmdObject>
+    <cmdPara></cmdPara>
+    <cmdResponseInfo>success</cmdResponseInfo>
+  </cmd>
+  <content>
+    <time>1523478954</time>
+    <gatewayID>1111111</gatewayID>
+    <item>
+      <DataID>1</DataID>
+      <DataValue>0</DataValue>
+    </item>
+    <item>
+      <DataID>2</DataID>
+      <DataValue>0</DataValue>
+    </item>
+    <item>
+      <DataID>4</DataID>
+      <DataValue>300</DataValue>
+    </item>
+    <item>
+      <DataID>5</DataID>
+      <DataValue>30</DataValue>
+    </item>
+    ......</content>
+</root>
