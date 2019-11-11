@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1024px"
+    android:layout_height="600px"
+    android:layout_gravity="fill"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="295dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/backgrounds/scenic[0]" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="295dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/backgrounds/scenic[0]" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="556dp"
+        android:layout_height="196dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false"
+            android:gravity="center">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_height="116dp"
+                    android:background="#D4DBDF"
+                    android:gravity="fill">
+
+                    <TextView
+                        android:id="@+id/EXP"
+                        android:layout_width="82dp"
+                        android:layout_height="47dp"
+                        android:background="#7CD5EC"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="气体浓度" />
+
+                    <TextView
+                        android:id="@+id/DEVICE1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="top|center" />
+
+                    <TextView
+                        android:id="@+id/DEVICE2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="top|center" />
+
+                    <TextView
+                        android:id="@+id/DEVICE3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="top|center" />
+
+                    <TextView
+                        android:id="@+id/DEVICE4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#D4DBDF"
+                        android:gravity="top|center" />
+
+                    <TextView
+                        android:id="@+id/DEVICE5"
+                        android:layout_width="62dp"
+                        android:layout_height="match_parent"
+                        android:background="#D4DBDF"
+                        android:gravity="top|center" />
+
+                    <TextView
+                        android:id="@+id/DEVICE6"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:background="#D4DBDF"
+                        android:gravity="top|center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="30dp"
+                        android:layout_height="48dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="温湿度" />
+
+                    <TextView
+                        android:id="@+id/T"
+                        android:layout_width="41dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/H"
+                        android:layout_width="44dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Raw1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D4DBDF">
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:background="#7CD5EC"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="风向风速" />
+
+                    <TextView
+                        android:id="@+id/WIND_DIRECT"
+                        android:layout_width="42dp"
+                        android:layout_height="match_parent"
+                        android:background="#D4DBDF"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/WIND_SPEED"
+                        android:layout_width="42dp"
+                        android:layout_height="match_parent"
+                        android:background="#D4DBDF"
+                        android:gravity="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Raw2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="GPS" />
+
+                    <TextView
+                        android:id="@+id/GPS_LATITUDE"
+                        android:layout_width="61dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/GPS_LONGITUDE"
+                        android:layout_width="61dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/GPS_SPEED"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/GPS_DIRECT"
+                        android:layout_width="63dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D4DBDF">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="37dp"
+                        android:layout_height="48dp"
+                        android:background="#7CD5EC"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="压力/液位" />
+
+                    <TextView
+                        android:id="@+id/TANK_PRESSURE"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:background="#D4DBDF"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/TANK_LEVEL"
+                        android:layout_width="57dp"
+                        android:layout_height="match_parent"
+                        android:background="#D4DBDF"
+                        android:gravity="center" />
+                </TableRow>
+
+            </TableLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:text="画面一"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="488dp"
+        android:text="画面二"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/SPRAY_BUTTON"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+
+        android:layout_marginStart="596dp"
+        android:layout_marginTop="40dp"
+        android:text="喷淋"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SET_ALARM_VALUE"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/SET_ALARM_VALUE"
+        android:layout_width="114dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="29dp"
+        android:text="设置预警值"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

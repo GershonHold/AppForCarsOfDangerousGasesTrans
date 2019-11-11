@@ -1,8 +1,0 @@
-<root>
-<cmd>
-<cmdType>WRITE_OK</cmdType>
-<cmdObject>alarm_state</cmdObject>
-<cmdPara></cmdPara>
-<cmdResponseInfo>success</cmdResponseInfo>
-</cmd>
-</root>

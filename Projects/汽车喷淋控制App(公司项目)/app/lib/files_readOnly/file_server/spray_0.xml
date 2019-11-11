@@ -1,8 +1,0 @@
-<root>
-  <cmd>
-    <cmdType>CONTROL_OK</cmdType>
-    <cmdObject>spray</cmdObject>
-    <cmdPara>0</cmdPara>
-    <cmdResponseInfo>success</cmdResponseInfo>
-  </cmd>
-</root>
