@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="30dp"
-                android:text="低警报触发时间"
+                android:text="低警报持续时间"
                 android:textColor="#131212"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="30dp"
-                android:text="高警报时间"
+                android:text="高警报持续时间"
                 android:textColor="#131212"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="30dp"
-                android:text="低警报解除触发时间"
+                android:text="低警报解除持续时间"
                 android:textColor="#131212"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -168,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="30dp"
-                android:text="高警报解除触发时间"
+                android:text="高警报解除持续时间"
                 android:textColor="#131212"
                 android:textSize="18sp"
                 android:textStyle="bold" />

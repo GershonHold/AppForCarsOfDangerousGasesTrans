@@ -320,8 +320,8 @@ class messageHandler extends Thread {
             System.out.println("温度为" + dataArray[24]);
             System.out.println("湿度为" + dataArray[25]);
             System.out.println("后面的其他数据已经省略。。。");
-            // 此处设置温度为dataArray[24]
-            // 此处设置湿度为dataArray[25]
+            // 此处设置温度为dataArray[60]
+            // 此处设置湿度为dataArray[61]
             // 依次向后直到33是罐体液位
         } else {
             for (int i = 0; i < 6; i++) {
